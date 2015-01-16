@@ -14,11 +14,11 @@ Frequently used utilits and libraries for Pandra's projects
 PandraLibs is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-    pod 'PandraLibs', :git => 'https://github.com/stephenkopylov/PandraLibs.git'
+    pod 'SKLibs', :git => 'https://github.com/stephenkopylov/SKLibs.git'
 
 ## Author
 
-Stephen Kopylov, sk@pandra.ru
+Stephen Kopylov, newonxp@gmail.com
 
 ## License
 
