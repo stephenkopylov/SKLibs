@@ -13,7 +13,7 @@
 @implementation viewDataSourceSample{
     User *testUser;
 }
--(BasicAdapter *)getAdapter{
+-(SKBasicAdapter *)getAdapter{
     return [[viewAdapterSample alloc] init];
 }
 -(void)setup{

@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicAdapter.h"
+#import "SKBasicAdapter.h"
 #import "viewSample.h"
 #import "viewDataSourceSample.h"
 
-@interface viewAdapterSample : BasicAdapter
+@interface viewAdapterSample : SKBasicAdapter
 @property (strong , nonatomic) viewSample *view;
 @property (strong,nonatomic) viewDataSourceSample *basicDataSource;
 @end

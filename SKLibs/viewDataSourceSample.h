@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicDataSource.h"
+#import "SKBasicDataSource.h"
 #import "User.h"
 
-@interface viewDataSourceSample : BasicDataSource
+@interface viewDataSourceSample : SKBasicDataSource
 @property (strong ,nonatomic) User *data;
 -(void)regenerateData;
 @end

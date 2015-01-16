@@ -7,14 +7,14 @@
 //
 
 #import "CollectionViewSample.h"
-#import "BasicCollectionView.h"
+#import "SKBasicCollectionView.h"
 #import "cvDataSourceSample.h"
 #import <Masonry.h>
 
 @implementation CollectionViewSample
 -(void)viewDidLoad{
     self.view.backgroundColor = [UIColor whiteColor];
-    BasicCollectionView *basicCollectionView = [[BasicCollectionView alloc] initWithDataSource:[[cvDataSourceSample alloc] init]];
+    SKBasicCollectionView *basicCollectionView = [[SKBasicCollectionView alloc] initWithDataSource:[[cvDataSourceSample alloc] init]];
     basicCollectionView.backgroundColor = [UIColor redColor];
     basicCollectionView.alwaysBounceVertical = YES;
     basicCollectionView.refreshEnabled = YES;

@@ -7,7 +7,7 @@
 //
 
 #import "tableViewSample.h"
-#import "BasicTableView.h"
+#import "SKBasicTableView.h"
 #import "tvDataSourceSample.h"
 #import <Masonry.h>
 
@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    BasicTableView *basicCollectionView = [[BasicTableView alloc] initWithDataSource:[[tvDataSourceSample alloc] init]];
+    SKBasicTableView *basicCollectionView = [[SKBasicTableView alloc] initWithDataSource:[[tvDataSourceSample alloc] init]];
     basicCollectionView.alwaysBounceVertical = YES;
     basicCollectionView.refreshEnabled = YES;
     [self.view addSubview:basicCollectionView];

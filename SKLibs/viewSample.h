@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicView.h"
+#import "SKBasicView.h"
 
-@interface viewSample : BasicView
+@interface viewSample : SKBasicView
 @property (strong,nonatomic) UIImageView *sampleImage;
 @property (strong,nonatomic) UILabel *sampleLabel;
 @property (strong,nonatomic) UIButton *sampleButton;

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicTableViewAdapter.h"
+#import "SKBasicTableViewAdapter.h"
 
-@interface tvAdapterSample : BasicTableViewAdapter
+@interface tvAdapterSample : SKBasicTableViewAdapter
 
 @end

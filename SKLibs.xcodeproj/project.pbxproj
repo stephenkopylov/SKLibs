@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C4D97671A10A8C5005FD0BE /* TD.h in Sources */ = {isa = PBXBuildFile; fileRef = 84F1AE321A0FFF6B007CAA64 /* TD.h */; };
-		4C4D97681A10A8CC005FD0BE /* TD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1AE331A0FFF6B007CAA64 /* TD.m */; };
-		4CA2D6101A2DFBBF00E21E08 /* BasicLoadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2D60F1A2DFBBF00E21E08 /* BasicLoadingCell.m */; };
-		4CD6E8921A1CFCAB000BBD5D /* BasicSharingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E8911A1CFCAB000BBD5D /* BasicSharingManager.m */; };
+		4C4D97671A10A8C5005FD0BE /* SKDate.h in Sources */ = {isa = PBXBuildFile; fileRef = 84F1AE321A0FFF6B007CAA64 /* SKDate.h */; };
+		4C4D97681A10A8CC005FD0BE /* SKDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1AE331A0FFF6B007CAA64 /* SKDate.m */; };
+		4CA2D6101A2DFBBF00E21E08 /* SKBasicLoadingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA2D60F1A2DFBBF00E21E08 /* SKBasicLoadingCell.m */; };
+		4CD6E8921A1CFCAB000BBD5D /* SKBasicSharingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E8911A1CFCAB000BBD5D /* SKBasicSharingManager.m */; };
 		842925421A2F8555001A40F1 /* TableViewSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925411A2F8555001A40F1 /* TableViewSample.m */; };
-		8429254B1A2F880F001A40F1 /* BasicTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429254A1A2F880F001A40F1 /* BasicTableViewAdapter.m */; };
+		8429254B1A2F880F001A40F1 /* SKBasicTableViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429254A1A2F880F001A40F1 /* SKBasicTableViewAdapter.m */; };
 		8429254E1A2F8976001A40F1 /* tvDataSourceSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429254D1A2F8976001A40F1 /* tvDataSourceSample.m */; };
-		842925511A2F91F3001A40F1 /* BasicLoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925501A2F91F3001A40F1 /* BasicLoadingTableViewCell.m */; };
-		842925541A2F9427001A40F1 /* BasicTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925531A2F9427001A40F1 /* BasicTableViewDataSource.m */; };
-		842925571A2F9433001A40F1 /* BasicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925551A2F9433001A40F1 /* BasicTableView.m */; };
+		842925511A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925501A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.m */; };
+		842925541A2F9427001A40F1 /* SKBasicTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925531A2F9427001A40F1 /* SKBasicTableViewDataSource.m */; };
+		842925571A2F9433001A40F1 /* SKBasicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925551A2F9433001A40F1 /* SKBasicTableView.m */; };
 		8429255A1A2F95E9001A40F1 /* tvAdapterSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 842925591A2F95E9001A40F1 /* tvAdapterSample.m */; };
 		845CFCB11A0FDC19000A1A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845CFCB01A0FDC19000A1A60 /* AppDelegate.m */; };
 		847095581A2F733A00B180D0 /* UIViewSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 847095571A2F733A00B180D0 /* UIViewSample.m */; };
@@ -27,32 +27,30 @@
 		848C3DFE1A0FD419004C9699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C3DFD1A0FD419004C9699 /* main.m */; };
 		848C3E0C1A0FD419004C9699 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848C3E0B1A0FD419004C9699 /* Images.xcassets */; };
 		848C3E1B1A0FD419004C9699 /* SKLibsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C3E1A1A0FD419004C9699 /* SKLibsTests.m */; };
-		849411821A2E4D20006A70A5 /* BasicAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411811A2E4D20006A70A5 /* BasicAdapter.m */; };
-		8494118B1A2E4F13006A70A5 /* BasicCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494118A1A2E4F13006A70A5 /* BasicCollectionViewDataSource.m */; };
-		8494118E1A2E4FD5006A70A5 /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494118D1A2E4FD5006A70A5 /* BasicView.m */; };
-		849411971A2E5886006A70A5 /* BasicArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411961A2E5886006A70A5 /* BasicArrayDataSource.m */; };
-		8494119A1A2E5B04006A70A5 /* BasicCollectionViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411991A2E5B04006A70A5 /* BasicCollectionViewAdapter.m */; };
+		849411821A2E4D20006A70A5 /* SKBasicAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411811A2E4D20006A70A5 /* SKBasicAdapter.m */; };
+		8494118B1A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494118A1A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.m */; };
+		8494118E1A2E4FD5006A70A5 /* SKBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494118D1A2E4FD5006A70A5 /* SKBasicView.m */; };
+		849411971A2E5886006A70A5 /* SKBasicArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411961A2E5886006A70A5 /* SKBasicArrayDataSource.m */; };
+		8494119A1A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411991A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.m */; };
 		8494119F1A2E5FE2006A70A5 /* SKLibsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8494119E1A2E5FE2006A70A5 /* SKLibsVC.m */; };
 		849411A51A2E6469006A70A5 /* CollectionViewSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411A41A2E6469006A70A5 /* CollectionViewSample.m */; };
 		849411A91A2E64FC006A70A5 /* cvAdapterSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411A81A2E64FC006A70A5 /* cvAdapterSample.m */; };
 		849411AC1A2E6520006A70A5 /* cvDataSourceSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411AB1A2E6520006A70A5 /* cvDataSourceSample.m */; };
 		849411AF1A2E689A006A70A5 /* cvCellSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 849411AE1A2E689A006A70A5 /* cvCellSample.m */; };
-		84C2A8F01A0FE34A00BE6045 /* BasicCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8D31A0FE34A00BE6045 /* BasicCollectionView.m */; };
-		84C2A8F11A0FE34A00BE6045 /* BasicContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8D51A0FE34A00BE6045 /* BasicContextManager.m */; };
-		84C2A8F21A0FE34A00BE6045 /* BasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8D71A0FE34A00BE6045 /* BasicDataSource.m */; };
-		84C2A8F41A0FE34A00BE6045 /* BasicLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8DC1A0FE34A00BE6045 /* BasicLinker.m */; };
-		84C2A8F51A0FE34A00BE6045 /* BasicMTContextProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8DE1A0FE34A00BE6045 /* BasicMTContextProcessor.m */; };
-		84C2A8F61A0FE34A00BE6045 /* BasicPostprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E01A0FE34A00BE6045 /* BasicPostprocessor.m */; };
-		84C2A8F71A0FE34A00BE6045 /* BasicSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E21A0FE34A00BE6045 /* BasicSaver.m */; };
-		84C2A8F81A0FE34A00BE6045 /* BasicSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E41A0FE34A00BE6045 /* BasicSyncer.m */; };
-		84C2A8F91A0FE34A00BE6045 /* CC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E61A0FE34A00BE6045 /* CC.m */; };
-		84C2A8FA1A0FE34A00BE6045 /* BasicCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E81A0FE34A00BE6045 /* BasicCoredataManager.m */; };
-		84C2A8FB1A0FE34A00BE6045 /* DF.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8EA1A0FE34A00BE6045 /* DF.m */; };
-		84C2A8FC1A0FE34A00BE6045 /* MT.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8EC1A0FE34A00BE6045 /* MT.m */; };
-		84C2A8FD1A0FE34A00BE6045 /* PP.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8EF1A0FE34A00BE6045 /* PP.m */; };
-		84C2A9031A0FEAF700BE6045 /* BasicProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A9021A0FEAF700BE6045 /* BasicProcessor.m */; };
-		84C2A9091A0FED6400BE6045 /* CM.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A9081A0FED6400BE6045 /* CM.m */; };
-		84F1AE371A0FFF70007CAA64 /* IP.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1AE361A0FFF70007CAA64 /* IP.m */; };
+		84C2A8F01A0FE34A00BE6045 /* SKBasicCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8D31A0FE34A00BE6045 /* SKBasicCollectionView.m */; };
+		84C2A8F11A0FE34A00BE6045 /* SKBasicContextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8D51A0FE34A00BE6045 /* SKBasicContextManager.m */; };
+		84C2A8F21A0FE34A00BE6045 /* SKBasicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8D71A0FE34A00BE6045 /* SKBasicDataSource.m */; };
+		84C2A8F41A0FE34A00BE6045 /* SKBasicLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8DC1A0FE34A00BE6045 /* SKBasicLinker.m */; };
+		84C2A8F51A0FE34A00BE6045 /* SKBasicMTContextProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8DE1A0FE34A00BE6045 /* SKBasicMTContextProcessor.m */; };
+		84C2A8F61A0FE34A00BE6045 /* SKBasicPostprocessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E01A0FE34A00BE6045 /* SKBasicPostprocessor.m */; };
+		84C2A8F71A0FE34A00BE6045 /* SKBasicSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E21A0FE34A00BE6045 /* SKBasicSaver.m */; };
+		84C2A8F81A0FE34A00BE6045 /* SKBasicSyncer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E41A0FE34A00BE6045 /* SKBasicSyncer.m */; };
+		84C2A8F91A0FE34A00BE6045 /* SKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E61A0FE34A00BE6045 /* SKColor.m */; };
+		84C2A8FA1A0FE34A00BE6045 /* SKBasicCoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8E81A0FE34A00BE6045 /* SKBasicCoredataManager.m */; };
+		84C2A8FC1A0FE34A00BE6045 /* SKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A8EC1A0FE34A00BE6045 /* SKMath.m */; };
+		84C2A9031A0FEAF700BE6045 /* SKBasicProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A9021A0FEAF700BE6045 /* SKBasicProcessor.m */; };
+		84C2A9091A0FED6400BE6045 /* SKCoockies.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2A9081A0FED6400BE6045 /* SKCoockies.m */; };
+		84F1AE371A0FFF70007CAA64 /* SKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F1AE361A0FFF70007CAA64 /* SKImage.m */; };
 		9A3C048B5F47D05C716EA268 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 084F732815BFD4EECB13D174 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -69,23 +67,23 @@
 /* Begin PBXFileReference section */
 		084F732815BFD4EECB13D174 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		321A35CAF5E6431C516AD708 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		4CA2D60E1A2DFBBF00E21E08 /* BasicLoadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicLoadingCell.h; path = Classes/BasicLoadingCell.h; sourceTree = "<group>"; };
-		4CA2D60F1A2DFBBF00E21E08 /* BasicLoadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicLoadingCell.m; path = Classes/BasicLoadingCell.m; sourceTree = "<group>"; };
-		4CD6E8901A1CFCAB000BBD5D /* BasicSharingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicSharingManager.h; path = Classes/BasicSharingManager.h; sourceTree = "<group>"; };
-		4CD6E8911A1CFCAB000BBD5D /* BasicSharingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicSharingManager.m; path = Classes/BasicSharingManager.m; sourceTree = "<group>"; };
+		4CA2D60E1A2DFBBF00E21E08 /* SKBasicLoadingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicLoadingCell.h; path = Classes/SKBasicLoadingCell.h; sourceTree = "<group>"; };
+		4CA2D60F1A2DFBBF00E21E08 /* SKBasicLoadingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicLoadingCell.m; path = Classes/SKBasicLoadingCell.m; sourceTree = "<group>"; };
+		4CD6E8901A1CFCAB000BBD5D /* SKBasicSharingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicSharingManager.h; path = Classes/SKBasicSharingManager.h; sourceTree = "<group>"; };
+		4CD6E8911A1CFCAB000BBD5D /* SKBasicSharingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicSharingManager.m; path = Classes/SKBasicSharingManager.m; sourceTree = "<group>"; };
 		653D76719830801E02024942 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		842925401A2F8555001A40F1 /* TableViewSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewSample.h; path = SKLibs/TableViewSample.h; sourceTree = "<group>"; };
 		842925411A2F8555001A40F1 /* TableViewSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewSample.m; path = SKLibs/TableViewSample.m; sourceTree = "<group>"; };
-		842925491A2F880F001A40F1 /* BasicTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTableViewAdapter.h; path = Classes/BasicTableViewAdapter.h; sourceTree = "<group>"; };
-		8429254A1A2F880F001A40F1 /* BasicTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTableViewAdapter.m; path = Classes/BasicTableViewAdapter.m; sourceTree = "<group>"; };
+		842925491A2F880F001A40F1 /* SKBasicTableViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicTableViewAdapter.h; path = Classes/SKBasicTableViewAdapter.h; sourceTree = "<group>"; };
+		8429254A1A2F880F001A40F1 /* SKBasicTableViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicTableViewAdapter.m; path = Classes/SKBasicTableViewAdapter.m; sourceTree = "<group>"; };
 		8429254C1A2F8976001A40F1 /* tvDataSourceSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tvDataSourceSample.h; path = SKLibs/tvDataSourceSample.h; sourceTree = "<group>"; };
 		8429254D1A2F8976001A40F1 /* tvDataSourceSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tvDataSourceSample.m; path = SKLibs/tvDataSourceSample.m; sourceTree = "<group>"; };
-		8429254F1A2F91F3001A40F1 /* BasicLoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicLoadingTableViewCell.h; path = Classes/BasicLoadingTableViewCell.h; sourceTree = "<group>"; };
-		842925501A2F91F3001A40F1 /* BasicLoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicLoadingTableViewCell.m; path = Classes/BasicLoadingTableViewCell.m; sourceTree = "<group>"; };
-		842925521A2F9427001A40F1 /* BasicTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTableViewDataSource.h; path = Classes/BasicTableViewDataSource.h; sourceTree = "<group>"; };
-		842925531A2F9427001A40F1 /* BasicTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTableViewDataSource.m; path = Classes/BasicTableViewDataSource.m; sourceTree = "<group>"; };
-		842925551A2F9433001A40F1 /* BasicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTableView.m; path = Classes/BasicTableView.m; sourceTree = "<group>"; };
-		842925561A2F9433001A40F1 /* BasicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTableView.h; path = Classes/BasicTableView.h; sourceTree = "<group>"; };
+		8429254F1A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicLoadingTableViewCell.h; path = Classes/SKBasicLoadingTableViewCell.h; sourceTree = "<group>"; };
+		842925501A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicLoadingTableViewCell.m; path = Classes/SKBasicLoadingTableViewCell.m; sourceTree = "<group>"; };
+		842925521A2F9427001A40F1 /* SKBasicTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicTableViewDataSource.h; path = Classes/SKBasicTableViewDataSource.h; sourceTree = "<group>"; };
+		842925531A2F9427001A40F1 /* SKBasicTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicTableViewDataSource.m; path = Classes/SKBasicTableViewDataSource.m; sourceTree = "<group>"; };
+		842925551A2F9433001A40F1 /* SKBasicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicTableView.m; path = Classes/SKBasicTableView.m; sourceTree = "<group>"; };
+		842925561A2F9433001A40F1 /* SKBasicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicTableView.h; path = Classes/SKBasicTableView.h; sourceTree = "<group>"; };
 		842925581A2F95E9001A40F1 /* tvAdapterSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tvAdapterSample.h; path = SKLibs/tvAdapterSample.h; sourceTree = "<group>"; };
 		842925591A2F95E9001A40F1 /* tvAdapterSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tvAdapterSample.m; path = SKLibs/tvAdapterSample.m; sourceTree = "<group>"; };
 		845CFCAF1A0FDC19000A1A60 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,21 +105,21 @@
 		848C3E141A0FD419004C9699 /* SKLibsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKLibsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848C3E191A0FD419004C9699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848C3E1A1A0FD419004C9699 /* SKLibsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKLibsTests.m; sourceTree = "<group>"; };
-		849411801A2E4D20006A70A5 /* BasicAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicAdapter.h; path = Classes/BasicAdapter.h; sourceTree = "<group>"; };
-		849411811A2E4D20006A70A5 /* BasicAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicAdapter.m; path = Classes/BasicAdapter.m; sourceTree = "<group>"; };
-		849411891A2E4F13006A70A5 /* BasicCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicCollectionViewDataSource.h; path = Classes/BasicCollectionViewDataSource.h; sourceTree = "<group>"; };
-		8494118A1A2E4F13006A70A5 /* BasicCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicCollectionViewDataSource.m; path = Classes/BasicCollectionViewDataSource.m; sourceTree = "<group>"; };
-		8494118C1A2E4FD5006A70A5 /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicView.h; path = Classes/BasicView.h; sourceTree = "<group>"; };
-		8494118D1A2E4FD5006A70A5 /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicView.m; path = Classes/BasicView.m; sourceTree = "<group>"; };
-		849411901A2E5120006A70A5 /* BasicViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicViewProtocol.h; path = Classes/BasicViewProtocol.h; sourceTree = "<group>"; };
-		849411951A2E5886006A70A5 /* BasicArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicArrayDataSource.h; path = Classes/BasicArrayDataSource.h; sourceTree = "<group>"; };
-		849411961A2E5886006A70A5 /* BasicArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicArrayDataSource.m; path = Classes/BasicArrayDataSource.m; sourceTree = "<group>"; };
-		849411981A2E5B04006A70A5 /* BasicCollectionViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicCollectionViewAdapter.h; path = Classes/BasicCollectionViewAdapter.h; sourceTree = "<group>"; };
-		849411991A2E5B04006A70A5 /* BasicCollectionViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicCollectionViewAdapter.m; path = Classes/BasicCollectionViewAdapter.m; sourceTree = "<group>"; };
+		849411801A2E4D20006A70A5 /* SKBasicAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicAdapter.h; path = Classes/SKBasicAdapter.h; sourceTree = "<group>"; };
+		849411811A2E4D20006A70A5 /* SKBasicAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicAdapter.m; path = Classes/SKBasicAdapter.m; sourceTree = "<group>"; };
+		849411891A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicCollectionViewDataSource.h; path = Classes/SKBasicCollectionViewDataSource.h; sourceTree = "<group>"; };
+		8494118A1A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicCollectionViewDataSource.m; path = Classes/SKBasicCollectionViewDataSource.m; sourceTree = "<group>"; };
+		8494118C1A2E4FD5006A70A5 /* SKBasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicView.h; path = Classes/SKBasicView.h; sourceTree = "<group>"; };
+		8494118D1A2E4FD5006A70A5 /* SKBasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicView.m; path = Classes/SKBasicView.m; sourceTree = "<group>"; };
+		849411901A2E5120006A70A5 /* SKBasicViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicViewProtocol.h; path = Classes/SKBasicViewProtocol.h; sourceTree = "<group>"; };
+		849411951A2E5886006A70A5 /* SKBasicArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicArrayDataSource.h; path = Classes/SKBasicArrayDataSource.h; sourceTree = "<group>"; };
+		849411961A2E5886006A70A5 /* SKBasicArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicArrayDataSource.m; path = Classes/SKBasicArrayDataSource.m; sourceTree = "<group>"; };
+		849411981A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicCollectionViewAdapter.h; path = Classes/SKBasicCollectionViewAdapter.h; sourceTree = "<group>"; };
+		849411991A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicCollectionViewAdapter.m; path = Classes/SKBasicCollectionViewAdapter.m; sourceTree = "<group>"; };
 		8494119D1A2E5FE2006A70A5 /* SKLibsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLibsVC.h; path = SKLibs/SKLibsVC.h; sourceTree = "<group>"; };
 		8494119E1A2E5FE2006A70A5 /* SKLibsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKLibsVC.m; path = SKLibs/SKLibsVC.m; sourceTree = "<group>"; };
-		849411A01A2E600A006A70A5 /* BasicAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicAdapterProtocol.h; path = Classes/BasicAdapterProtocol.h; sourceTree = "<group>"; };
-		849411A11A2E6014006A70A5 /* BasicDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicDataSourceProtocol.h; path = Classes/BasicDataSourceProtocol.h; sourceTree = "<group>"; };
+		849411A01A2E600A006A70A5 /* SKBasicAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicAdapterProtocol.h; path = Classes/SKBasicAdapterProtocol.h; sourceTree = "<group>"; };
+		849411A11A2E6014006A70A5 /* SKBasicDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicDataSourceProtocol.h; path = Classes/SKBasicDataSourceProtocol.h; sourceTree = "<group>"; };
 		849411A31A2E6469006A70A5 /* CollectionViewSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewSample.h; path = SKLibs/CollectionViewSample.h; sourceTree = "<group>"; };
 		849411A41A2E6469006A70A5 /* CollectionViewSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewSample.m; path = SKLibs/CollectionViewSample.m; sourceTree = "<group>"; };
 		849411A71A2E64FC006A70A5 /* cvAdapterSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvAdapterSample.h; path = SKLibs/cvAdapterSample.h; sourceTree = "<group>"; };
@@ -130,42 +128,38 @@
 		849411AB1A2E6520006A70A5 /* cvDataSourceSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cvDataSourceSample.m; path = SKLibs/cvDataSourceSample.m; sourceTree = "<group>"; };
 		849411AD1A2E689A006A70A5 /* cvCellSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvCellSample.h; path = SKLibs/cvCellSample.h; sourceTree = "<group>"; };
 		849411AE1A2E689A006A70A5 /* cvCellSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cvCellSample.m; path = SKLibs/cvCellSample.m; sourceTree = "<group>"; };
-		84C2A8D21A0FE34A00BE6045 /* BasicCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicCollectionView.h; path = Classes/BasicCollectionView.h; sourceTree = "<group>"; };
-		84C2A8D31A0FE34A00BE6045 /* BasicCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicCollectionView.m; path = Classes/BasicCollectionView.m; sourceTree = "<group>"; };
-		84C2A8D41A0FE34A00BE6045 /* BasicContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicContextManager.h; path = Classes/BasicContextManager.h; sourceTree = "<group>"; };
-		84C2A8D51A0FE34A00BE6045 /* BasicContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicContextManager.m; path = Classes/BasicContextManager.m; sourceTree = "<group>"; };
-		84C2A8D61A0FE34A00BE6045 /* BasicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicDataSource.h; path = Classes/BasicDataSource.h; sourceTree = "<group>"; };
-		84C2A8D71A0FE34A00BE6045 /* BasicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicDataSource.m; path = Classes/BasicDataSource.m; sourceTree = "<group>"; };
-		84C2A8DA1A0FE34A00BE6045 /* BasicDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicDataSourceDelegate.h; path = Classes/BasicDataSourceDelegate.h; sourceTree = "<group>"; };
-		84C2A8DB1A0FE34A00BE6045 /* BasicLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicLinker.h; path = Classes/BasicLinker.h; sourceTree = "<group>"; };
-		84C2A8DC1A0FE34A00BE6045 /* BasicLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicLinker.m; path = Classes/BasicLinker.m; sourceTree = "<group>"; };
-		84C2A8DD1A0FE34A00BE6045 /* BasicMTContextProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicMTContextProcessor.h; path = Classes/BasicMTContextProcessor.h; sourceTree = "<group>"; };
-		84C2A8DE1A0FE34A00BE6045 /* BasicMTContextProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicMTContextProcessor.m; path = Classes/BasicMTContextProcessor.m; sourceTree = "<group>"; };
-		84C2A8DF1A0FE34A00BE6045 /* BasicPostprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicPostprocessor.h; path = Classes/BasicPostprocessor.h; sourceTree = "<group>"; };
-		84C2A8E01A0FE34A00BE6045 /* BasicPostprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicPostprocessor.m; path = Classes/BasicPostprocessor.m; sourceTree = "<group>"; };
-		84C2A8E11A0FE34A00BE6045 /* BasicSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicSaver.h; path = Classes/BasicSaver.h; sourceTree = "<group>"; };
-		84C2A8E21A0FE34A00BE6045 /* BasicSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicSaver.m; path = Classes/BasicSaver.m; sourceTree = "<group>"; };
-		84C2A8E31A0FE34A00BE6045 /* BasicSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicSyncer.h; path = Classes/BasicSyncer.h; sourceTree = "<group>"; };
-		84C2A8E41A0FE34A00BE6045 /* BasicSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicSyncer.m; path = Classes/BasicSyncer.m; sourceTree = "<group>"; };
-		84C2A8E51A0FE34A00BE6045 /* CC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CC.h; path = Classes/CC.h; sourceTree = "<group>"; };
-		84C2A8E61A0FE34A00BE6045 /* CC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CC.m; path = Classes/CC.m; sourceTree = "<group>"; };
-		84C2A8E71A0FE34A00BE6045 /* BasicCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicCoredataManager.h; path = Classes/BasicCoredataManager.h; sourceTree = "<group>"; };
-		84C2A8E81A0FE34A00BE6045 /* BasicCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicCoredataManager.m; path = Classes/BasicCoredataManager.m; sourceTree = "<group>"; };
-		84C2A8E91A0FE34A00BE6045 /* DF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DF.h; path = Classes/DF.h; sourceTree = "<group>"; };
-		84C2A8EA1A0FE34A00BE6045 /* DF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DF.m; path = Classes/DF.m; sourceTree = "<group>"; };
-		84C2A8EB1A0FE34A00BE6045 /* MT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MT.h; path = Classes/MT.h; sourceTree = "<group>"; };
-		84C2A8EC1A0FE34A00BE6045 /* MT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MT.m; path = Classes/MT.m; sourceTree = "<group>"; };
+		84C2A8D21A0FE34A00BE6045 /* SKBasicCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicCollectionView.h; path = Classes/SKBasicCollectionView.h; sourceTree = "<group>"; };
+		84C2A8D31A0FE34A00BE6045 /* SKBasicCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicCollectionView.m; path = Classes/SKBasicCollectionView.m; sourceTree = "<group>"; };
+		84C2A8D41A0FE34A00BE6045 /* SKBasicContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicContextManager.h; path = Classes/SKBasicContextManager.h; sourceTree = "<group>"; };
+		84C2A8D51A0FE34A00BE6045 /* SKBasicContextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicContextManager.m; path = Classes/SKBasicContextManager.m; sourceTree = "<group>"; };
+		84C2A8D61A0FE34A00BE6045 /* SKBasicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicDataSource.h; path = Classes/SKBasicDataSource.h; sourceTree = "<group>"; };
+		84C2A8D71A0FE34A00BE6045 /* SKBasicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicDataSource.m; path = Classes/SKBasicDataSource.m; sourceTree = "<group>"; };
+		84C2A8DA1A0FE34A00BE6045 /* SKBasicDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicDataSourceDelegate.h; path = Classes/SKBasicDataSourceDelegate.h; sourceTree = "<group>"; };
+		84C2A8DB1A0FE34A00BE6045 /* SKBasicLinker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicLinker.h; path = Classes/SKBasicLinker.h; sourceTree = "<group>"; };
+		84C2A8DC1A0FE34A00BE6045 /* SKBasicLinker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicLinker.m; path = Classes/SKBasicLinker.m; sourceTree = "<group>"; };
+		84C2A8DD1A0FE34A00BE6045 /* SKBasicMTContextProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicMTContextProcessor.h; path = Classes/SKBasicMTContextProcessor.h; sourceTree = "<group>"; };
+		84C2A8DE1A0FE34A00BE6045 /* SKBasicMTContextProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicMTContextProcessor.m; path = Classes/SKBasicMTContextProcessor.m; sourceTree = "<group>"; };
+		84C2A8DF1A0FE34A00BE6045 /* SKBasicPostprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicPostprocessor.h; path = Classes/SKBasicPostprocessor.h; sourceTree = "<group>"; };
+		84C2A8E01A0FE34A00BE6045 /* SKBasicPostprocessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicPostprocessor.m; path = Classes/SKBasicPostprocessor.m; sourceTree = "<group>"; };
+		84C2A8E11A0FE34A00BE6045 /* SKBasicSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicSaver.h; path = Classes/SKBasicSaver.h; sourceTree = "<group>"; };
+		84C2A8E21A0FE34A00BE6045 /* SKBasicSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicSaver.m; path = Classes/SKBasicSaver.m; sourceTree = "<group>"; };
+		84C2A8E31A0FE34A00BE6045 /* SKBasicSyncer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicSyncer.h; path = Classes/SKBasicSyncer.h; sourceTree = "<group>"; };
+		84C2A8E41A0FE34A00BE6045 /* SKBasicSyncer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicSyncer.m; path = Classes/SKBasicSyncer.m; sourceTree = "<group>"; };
+		84C2A8E51A0FE34A00BE6045 /* SKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKColor.h; path = Classes/SKColor.h; sourceTree = "<group>"; };
+		84C2A8E61A0FE34A00BE6045 /* SKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKColor.m; path = Classes/SKColor.m; sourceTree = "<group>"; };
+		84C2A8E71A0FE34A00BE6045 /* SKBasicCoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicCoredataManager.h; path = Classes/SKBasicCoredataManager.h; sourceTree = "<group>"; };
+		84C2A8E81A0FE34A00BE6045 /* SKBasicCoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicCoredataManager.m; path = Classes/SKBasicCoredataManager.m; sourceTree = "<group>"; };
+		84C2A8EB1A0FE34A00BE6045 /* SKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKMath.h; path = Classes/SKMath.h; sourceTree = "<group>"; };
+		84C2A8EC1A0FE34A00BE6045 /* SKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKMath.m; path = Classes/SKMath.m; sourceTree = "<group>"; };
 		84C2A8ED1A0FE34A00BE6045 /* SKLibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLibs.h; path = Classes/SKLibs.h; sourceTree = "<group>"; };
-		84C2A8EE1A0FE34A00BE6045 /* PP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PP.h; path = Classes/PP.h; sourceTree = "<group>"; };
-		84C2A8EF1A0FE34A00BE6045 /* PP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PP.m; path = Classes/PP.m; sourceTree = "<group>"; };
-		84C2A9011A0FEAF700BE6045 /* BasicProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicProcessor.h; path = Classes/BasicProcessor.h; sourceTree = "<group>"; };
-		84C2A9021A0FEAF700BE6045 /* BasicProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicProcessor.m; path = Classes/BasicProcessor.m; sourceTree = "<group>"; };
-		84C2A9071A0FED6400BE6045 /* CM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CM.h; path = Classes/CM.h; sourceTree = "<group>"; };
-		84C2A9081A0FED6400BE6045 /* CM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CM.m; path = Classes/CM.m; sourceTree = "<group>"; };
-		84F1AE321A0FFF6B007CAA64 /* TD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TD.h; path = Classes/TD.h; sourceTree = "<group>"; };
-		84F1AE331A0FFF6B007CAA64 /* TD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TD.m; path = Classes/TD.m; sourceTree = "<group>"; };
-		84F1AE351A0FFF70007CAA64 /* IP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IP.h; path = Classes/IP.h; sourceTree = "<group>"; };
-		84F1AE361A0FFF70007CAA64 /* IP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IP.m; path = Classes/IP.m; sourceTree = "<group>"; };
+		84C2A9011A0FEAF700BE6045 /* SKBasicProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKBasicProcessor.h; path = Classes/SKBasicProcessor.h; sourceTree = "<group>"; };
+		84C2A9021A0FEAF700BE6045 /* SKBasicProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKBasicProcessor.m; path = Classes/SKBasicProcessor.m; sourceTree = "<group>"; };
+		84C2A9071A0FED6400BE6045 /* SKCoockies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKCoockies.h; path = Classes/SKCoockies.h; sourceTree = "<group>"; };
+		84C2A9081A0FED6400BE6045 /* SKCoockies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKCoockies.m; path = Classes/SKCoockies.m; sourceTree = "<group>"; };
+		84F1AE321A0FFF6B007CAA64 /* SKDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKDate.h; path = Classes/SKDate.h; sourceTree = "<group>"; };
+		84F1AE331A0FFF6B007CAA64 /* SKDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKDate.m; path = Classes/SKDate.m; sourceTree = "<group>"; };
+		84F1AE351A0FFF70007CAA64 /* SKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKImage.h; path = Classes/SKImage.h; sourceTree = "<group>"; };
+		84F1AE361A0FFF70007CAA64 /* SKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKImage.m; path = Classes/SKImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,8 +184,8 @@
 		4CD6E88F1A1CFC91000BBD5D /* sharing */ = {
 			isa = PBXGroup;
 			children = (
-				4CD6E8901A1CFCAB000BBD5D /* BasicSharingManager.h */,
-				4CD6E8911A1CFCAB000BBD5D /* BasicSharingManager.m */,
+				4CD6E8901A1CFCAB000BBD5D /* SKBasicSharingManager.h */,
+				4CD6E8911A1CFCAB000BBD5D /* SKBasicSharingManager.m */,
 			);
 			name = sharing;
 			sourceTree = "<group>";
@@ -220,22 +214,22 @@
 		845CFCEE1A0FDE52000A1A60 /* coredata */ = {
 			isa = PBXGroup;
 			children = (
-				84C2A9011A0FEAF700BE6045 /* BasicProcessor.h */,
-				84C2A9021A0FEAF700BE6045 /* BasicProcessor.m */,
-				84C2A8D41A0FE34A00BE6045 /* BasicContextManager.h */,
-				84C2A8D51A0FE34A00BE6045 /* BasicContextManager.m */,
-				84C2A8DB1A0FE34A00BE6045 /* BasicLinker.h */,
-				84C2A8DC1A0FE34A00BE6045 /* BasicLinker.m */,
-				84C2A8DD1A0FE34A00BE6045 /* BasicMTContextProcessor.h */,
-				84C2A8DE1A0FE34A00BE6045 /* BasicMTContextProcessor.m */,
-				84C2A8DF1A0FE34A00BE6045 /* BasicPostprocessor.h */,
-				84C2A8E01A0FE34A00BE6045 /* BasicPostprocessor.m */,
-				84C2A8E11A0FE34A00BE6045 /* BasicSaver.h */,
-				84C2A8E21A0FE34A00BE6045 /* BasicSaver.m */,
-				84C2A8E31A0FE34A00BE6045 /* BasicSyncer.h */,
-				84C2A8E41A0FE34A00BE6045 /* BasicSyncer.m */,
-				84C2A8E71A0FE34A00BE6045 /* BasicCoredataManager.h */,
-				84C2A8E81A0FE34A00BE6045 /* BasicCoredataManager.m */,
+				84C2A9011A0FEAF700BE6045 /* SKBasicProcessor.h */,
+				84C2A9021A0FEAF700BE6045 /* SKBasicProcessor.m */,
+				84C2A8D41A0FE34A00BE6045 /* SKBasicContextManager.h */,
+				84C2A8D51A0FE34A00BE6045 /* SKBasicContextManager.m */,
+				84C2A8DB1A0FE34A00BE6045 /* SKBasicLinker.h */,
+				84C2A8DC1A0FE34A00BE6045 /* SKBasicLinker.m */,
+				84C2A8DD1A0FE34A00BE6045 /* SKBasicMTContextProcessor.h */,
+				84C2A8DE1A0FE34A00BE6045 /* SKBasicMTContextProcessor.m */,
+				84C2A8DF1A0FE34A00BE6045 /* SKBasicPostprocessor.h */,
+				84C2A8E01A0FE34A00BE6045 /* SKBasicPostprocessor.m */,
+				84C2A8E11A0FE34A00BE6045 /* SKBasicSaver.h */,
+				84C2A8E21A0FE34A00BE6045 /* SKBasicSaver.m */,
+				84C2A8E31A0FE34A00BE6045 /* SKBasicSyncer.h */,
+				84C2A8E41A0FE34A00BE6045 /* SKBasicSyncer.m */,
+				84C2A8E71A0FE34A00BE6045 /* SKBasicCoredataManager.h */,
+				84C2A8E81A0FE34A00BE6045 /* SKBasicCoredataManager.m */,
 			);
 			name = coredata;
 			sourceTree = "<group>";
@@ -254,20 +248,16 @@
 		845CFCF01A0FDE7A000A1A60 /* utilits */ = {
 			isa = PBXGroup;
 			children = (
-				84F1AE351A0FFF70007CAA64 /* IP.h */,
-				84F1AE361A0FFF70007CAA64 /* IP.m */,
-				84F1AE321A0FFF6B007CAA64 /* TD.h */,
-				84F1AE331A0FFF6B007CAA64 /* TD.m */,
-				84C2A9071A0FED6400BE6045 /* CM.h */,
-				84C2A9081A0FED6400BE6045 /* CM.m */,
-				84C2A8E51A0FE34A00BE6045 /* CC.h */,
-				84C2A8E61A0FE34A00BE6045 /* CC.m */,
-				84C2A8E91A0FE34A00BE6045 /* DF.h */,
-				84C2A8EA1A0FE34A00BE6045 /* DF.m */,
-				84C2A8EB1A0FE34A00BE6045 /* MT.h */,
-				84C2A8EC1A0FE34A00BE6045 /* MT.m */,
-				84C2A8EE1A0FE34A00BE6045 /* PP.h */,
-				84C2A8EF1A0FE34A00BE6045 /* PP.m */,
+				84F1AE351A0FFF70007CAA64 /* SKImage.h */,
+				84F1AE361A0FFF70007CAA64 /* SKImage.m */,
+				84F1AE321A0FFF6B007CAA64 /* SKDate.h */,
+				84F1AE331A0FFF6B007CAA64 /* SKDate.m */,
+				84C2A9071A0FED6400BE6045 /* SKCoockies.h */,
+				84C2A9081A0FED6400BE6045 /* SKCoockies.m */,
+				84C2A8E51A0FE34A00BE6045 /* SKColor.h */,
+				84C2A8E61A0FE34A00BE6045 /* SKColor.m */,
+				84C2A8EB1A0FE34A00BE6045 /* SKMath.h */,
+				84C2A8EC1A0FE34A00BE6045 /* SKMath.m */,
 			);
 			name = utilits;
 			sourceTree = "<group>";
@@ -355,13 +345,13 @@
 		849411911A2E562C006A70A5 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				842925551A2F9433001A40F1 /* BasicTableView.m */,
-				842925561A2F9433001A40F1 /* BasicTableView.h */,
-				84C2A8D21A0FE34A00BE6045 /* BasicCollectionView.h */,
-				84C2A8D31A0FE34A00BE6045 /* BasicCollectionView.m */,
-				8494118C1A2E4FD5006A70A5 /* BasicView.h */,
-				8494118D1A2E4FD5006A70A5 /* BasicView.m */,
-				849411901A2E5120006A70A5 /* BasicViewProtocol.h */,
+				842925551A2F9433001A40F1 /* SKBasicTableView.m */,
+				842925561A2F9433001A40F1 /* SKBasicTableView.h */,
+				84C2A8D21A0FE34A00BE6045 /* SKBasicCollectionView.h */,
+				84C2A8D31A0FE34A00BE6045 /* SKBasicCollectionView.m */,
+				8494118C1A2E4FD5006A70A5 /* SKBasicView.h */,
+				8494118D1A2E4FD5006A70A5 /* SKBasicView.m */,
+				849411901A2E5120006A70A5 /* SKBasicViewProtocol.h */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -369,13 +359,13 @@
 		849411921A2E564C006A70A5 /* adapters */ = {
 			isa = PBXGroup;
 			children = (
-				849411801A2E4D20006A70A5 /* BasicAdapter.h */,
-				849411811A2E4D20006A70A5 /* BasicAdapter.m */,
-				849411A01A2E600A006A70A5 /* BasicAdapterProtocol.h */,
-				849411981A2E5B04006A70A5 /* BasicCollectionViewAdapter.h */,
-				849411991A2E5B04006A70A5 /* BasicCollectionViewAdapter.m */,
-				842925491A2F880F001A40F1 /* BasicTableViewAdapter.h */,
-				8429254A1A2F880F001A40F1 /* BasicTableViewAdapter.m */,
+				849411801A2E4D20006A70A5 /* SKBasicAdapter.h */,
+				849411811A2E4D20006A70A5 /* SKBasicAdapter.m */,
+				849411A01A2E600A006A70A5 /* SKBasicAdapterProtocol.h */,
+				849411981A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.h */,
+				849411991A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.m */,
+				842925491A2F880F001A40F1 /* SKBasicTableViewAdapter.h */,
+				8429254A1A2F880F001A40F1 /* SKBasicTableViewAdapter.m */,
 			);
 			name = adapters;
 			sourceTree = "<group>";
@@ -383,16 +373,16 @@
 		849411931A2E565A006A70A5 /* dataSources */ = {
 			isa = PBXGroup;
 			children = (
-				842925521A2F9427001A40F1 /* BasicTableViewDataSource.h */,
-				842925531A2F9427001A40F1 /* BasicTableViewDataSource.m */,
-				849411951A2E5886006A70A5 /* BasicArrayDataSource.h */,
-				849411961A2E5886006A70A5 /* BasicArrayDataSource.m */,
-				849411891A2E4F13006A70A5 /* BasicCollectionViewDataSource.h */,
-				8494118A1A2E4F13006A70A5 /* BasicCollectionViewDataSource.m */,
-				84C2A8D61A0FE34A00BE6045 /* BasicDataSource.h */,
-				84C2A8D71A0FE34A00BE6045 /* BasicDataSource.m */,
-				84C2A8DA1A0FE34A00BE6045 /* BasicDataSourceDelegate.h */,
-				849411A11A2E6014006A70A5 /* BasicDataSourceProtocol.h */,
+				842925521A2F9427001A40F1 /* SKBasicTableViewDataSource.h */,
+				842925531A2F9427001A40F1 /* SKBasicTableViewDataSource.m */,
+				849411951A2E5886006A70A5 /* SKBasicArrayDataSource.h */,
+				849411961A2E5886006A70A5 /* SKBasicArrayDataSource.m */,
+				849411891A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.h */,
+				8494118A1A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.m */,
+				84C2A8D61A0FE34A00BE6045 /* SKBasicDataSource.h */,
+				84C2A8D71A0FE34A00BE6045 /* SKBasicDataSource.m */,
+				84C2A8DA1A0FE34A00BE6045 /* SKBasicDataSourceDelegate.h */,
+				849411A11A2E6014006A70A5 /* SKBasicDataSourceProtocol.h */,
 			);
 			name = dataSources;
 			sourceTree = "<group>";
@@ -400,10 +390,10 @@
 		849411941A2E5679006A70A5 /* misc */ = {
 			isa = PBXGroup;
 			children = (
-				4CA2D60E1A2DFBBF00E21E08 /* BasicLoadingCell.h */,
-				4CA2D60F1A2DFBBF00E21E08 /* BasicLoadingCell.m */,
-				8429254F1A2F91F3001A40F1 /* BasicLoadingTableViewCell.h */,
-				842925501A2F91F3001A40F1 /* BasicLoadingTableViewCell.m */,
+				4CA2D60E1A2DFBBF00E21E08 /* SKBasicLoadingCell.h */,
+				4CA2D60F1A2DFBBF00E21E08 /* SKBasicLoadingCell.m */,
+				8429254F1A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.h */,
+				842925501A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.m */,
 			);
 			name = misc;
 			sourceTree = "<group>";
@@ -578,49 +568,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				847095641A2F7EE900B180D0 /* User.m in Sources */,
-				842925511A2F91F3001A40F1 /* BasicLoadingTableViewCell.m in Sources */,
-				4C4D97681A10A8CC005FD0BE /* TD.m in Sources */,
-				4C4D97671A10A8C5005FD0BE /* TD.h in Sources */,
-				84F1AE371A0FFF70007CAA64 /* IP.m in Sources */,
-				4CD6E8921A1CFCAB000BBD5D /* BasicSharingManager.m in Sources */,
-				84C2A8F21A0FE34A00BE6045 /* BasicDataSource.m in Sources */,
+				842925511A2F91F3001A40F1 /* SKBasicLoadingTableViewCell.m in Sources */,
+				4C4D97681A10A8CC005FD0BE /* SKDate.m in Sources */,
+				4C4D97671A10A8C5005FD0BE /* SKDate.h in Sources */,
+				84F1AE371A0FFF70007CAA64 /* SKImage.m in Sources */,
+				4CD6E8921A1CFCAB000BBD5D /* SKBasicSharingManager.m in Sources */,
+				84C2A8F21A0FE34A00BE6045 /* SKBasicDataSource.m in Sources */,
 				8494119F1A2E5FE2006A70A5 /* SKLibsVC.m in Sources */,
-				84C2A8F41A0FE34A00BE6045 /* BasicLinker.m in Sources */,
+				84C2A8F41A0FE34A00BE6045 /* SKBasicLinker.m in Sources */,
 				8470955E1A2F77DB00B180D0 /* viewDataSourceSample.m in Sources */,
-				84C2A8F01A0FE34A00BE6045 /* BasicCollectionView.m in Sources */,
-				8494118B1A2E4F13006A70A5 /* BasicCollectionViewDataSource.m in Sources */,
-				84C2A8F51A0FE34A00BE6045 /* BasicMTContextProcessor.m in Sources */,
-				8494118E1A2E4FD5006A70A5 /* BasicView.m in Sources */,
-				84C2A8FB1A0FE34A00BE6045 /* DF.m in Sources */,
-				842925541A2F9427001A40F1 /* BasicTableViewDataSource.m in Sources */,
+				84C2A8F01A0FE34A00BE6045 /* SKBasicCollectionView.m in Sources */,
+				8494118B1A2E4F13006A70A5 /* SKBasicCollectionViewDataSource.m in Sources */,
+				84C2A8F51A0FE34A00BE6045 /* SKBasicMTContextProcessor.m in Sources */,
+				8494118E1A2E4FD5006A70A5 /* SKBasicView.m in Sources */,
+				842925541A2F9427001A40F1 /* SKBasicTableViewDataSource.m in Sources */,
 				848C3DFE1A0FD419004C9699 /* main.m in Sources */,
 				847095581A2F733A00B180D0 /* UIViewSample.m in Sources */,
-				4CA2D6101A2DFBBF00E21E08 /* BasicLoadingCell.m in Sources */,
+				4CA2D6101A2DFBBF00E21E08 /* SKBasicLoadingCell.m in Sources */,
 				842925421A2F8555001A40F1 /* TableViewSample.m in Sources */,
-				84C2A8FA1A0FE34A00BE6045 /* BasicCoredataManager.m in Sources */,
+				84C2A8FA1A0FE34A00BE6045 /* SKBasicCoredataManager.m in Sources */,
 				8470955B1A2F744200B180D0 /* viewSample.m in Sources */,
 				849411AF1A2E689A006A70A5 /* cvCellSample.m in Sources */,
-				84C2A8F81A0FE34A00BE6045 /* BasicSyncer.m in Sources */,
-				84C2A9031A0FEAF700BE6045 /* BasicProcessor.m in Sources */,
-				84C2A8F11A0FE34A00BE6045 /* BasicContextManager.m in Sources */,
+				84C2A8F81A0FE34A00BE6045 /* SKBasicSyncer.m in Sources */,
+				84C2A9031A0FEAF700BE6045 /* SKBasicProcessor.m in Sources */,
+				84C2A8F11A0FE34A00BE6045 /* SKBasicContextManager.m in Sources */,
 				849411A91A2E64FC006A70A5 /* cvAdapterSample.m in Sources */,
 				845CFCB11A0FDC19000A1A60 /* AppDelegate.m in Sources */,
 				849411AC1A2E6520006A70A5 /* cvDataSourceSample.m in Sources */,
 				8429255A1A2F95E9001A40F1 /* tvAdapterSample.m in Sources */,
-				842925571A2F9433001A40F1 /* BasicTableView.m in Sources */,
-				84C2A8FC1A0FE34A00BE6045 /* MT.m in Sources */,
-				84C2A8F91A0FE34A00BE6045 /* CC.m in Sources */,
-				84C2A8F71A0FE34A00BE6045 /* BasicSaver.m in Sources */,
+				842925571A2F9433001A40F1 /* SKBasicTableView.m in Sources */,
+				84C2A8FC1A0FE34A00BE6045 /* SKMath.m in Sources */,
+				84C2A8F91A0FE34A00BE6045 /* SKColor.m in Sources */,
+				84C2A8F71A0FE34A00BE6045 /* SKBasicSaver.m in Sources */,
 				847095611A2F77FB00B180D0 /* viewAdapterSample.m in Sources */,
-				849411821A2E4D20006A70A5 /* BasicAdapter.m in Sources */,
+				849411821A2E4D20006A70A5 /* SKBasicAdapter.m in Sources */,
 				849411A51A2E6469006A70A5 /* CollectionViewSample.m in Sources */,
-				84C2A8F61A0FE34A00BE6045 /* BasicPostprocessor.m in Sources */,
-				84C2A8FD1A0FE34A00BE6045 /* PP.m in Sources */,
-				8494119A1A2E5B04006A70A5 /* BasicCollectionViewAdapter.m in Sources */,
+				84C2A8F61A0FE34A00BE6045 /* SKBasicPostprocessor.m in Sources */,
+				8494119A1A2E5B04006A70A5 /* SKBasicCollectionViewAdapter.m in Sources */,
 				8429254E1A2F8976001A40F1 /* tvDataSourceSample.m in Sources */,
-				8429254B1A2F880F001A40F1 /* BasicTableViewAdapter.m in Sources */,
-				849411971A2E5886006A70A5 /* BasicArrayDataSource.m in Sources */,
-				84C2A9091A0FED6400BE6045 /* CM.m in Sources */,
+				8429254B1A2F880F001A40F1 /* SKBasicTableViewAdapter.m in Sources */,
+				849411971A2E5886006A70A5 /* SKBasicArrayDataSource.m in Sources */,
+				84C2A9091A0FED6400BE6045 /* SKCoockies.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

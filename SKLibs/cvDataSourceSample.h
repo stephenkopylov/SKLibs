@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicCollectionViewDataSource.h"
+#import "SKBasicCollectionViewDataSource.h"
 
-@interface cvDataSourceSample : BasicCollectionViewDataSource
+@interface cvDataSourceSample : SKBasicCollectionViewDataSource
 
 @end

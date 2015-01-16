@@ -14,7 +14,7 @@
     [self setCurrentData:[[NSMutableArray alloc] initWithObjects:@"1",@"2", nil]];
 }
 
--(BasicAdapter *)getAdapter{
+-(SKBasicAdapter *)getAdapter{
     
     return [[tvAdapterSample alloc] init];
 }

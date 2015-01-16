@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicTableViewDataSource.h"
+#import "SKBasicTableViewDataSource.h"
 
-@interface tvDataSourceSample : BasicTableViewDataSource
+@interface tvDataSourceSample : SKBasicTableViewDataSource
 
 @end

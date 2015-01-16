@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5966014-b14e-44d0-bcc1-f7f9200f064c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCollectionViewDataSource.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCollectionViewDataSource.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicTableViewDataSource.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicViewProtocol.h" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCollectionViewDataSource.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCollectionViewDataSource.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicTableViewDataSource.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicViewProtocol.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/DF.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/DF.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/PP.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SKLibs/Classes/PP.m" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicAdapter.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicAdapter.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicAdapter.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicAdapter.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicAdapterProtocol.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicAdapterProtocol.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicArrayDataSource.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicArrayDataSource.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicArrayDataSource.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicArrayDataSource.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCollectionView.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCollectionView.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCollectionView.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCollectionView.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCollectionViewAdapter.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCollectionViewAdapter.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCollectionViewAdapter.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCollectionViewAdapter.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicContextManager.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicContextManager.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicContextManager.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicContextManager.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCoredataManager.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCoredataManager.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicCoredataManager.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicCoredataManager.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicDataSource.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicDataSource.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicDataSource.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicDataSource.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicDataSourceDelegate.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicDataSourceDelegate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicDataSourceProtocol.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicDataSourceProtocol.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicLinker.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicLinker.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicLinker.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicLinker.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicLoadingCell.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingCell.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicLoadingCell.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingCell.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicLoadingTableViewCell.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingTableViewCell.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicLoadingTableViewCell.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingTableViewCell.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicMTContextProcessor.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicMTContextProcessor.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicMTContextProcessor.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicMTContextProcessor.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicPostprocessor.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicPostprocessor.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicPostprocessor.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicPostprocessor.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicProcessor.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicProcessor.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicProcessor.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicProcessor.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicSaver.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicSaver.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicSaver.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicSaver.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicSharingManager.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicSharingManager.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicSharingManager.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicSharingManager.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicSyncer.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicSyncer.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicSyncer.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicSyncer.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicTableView.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicTableView.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicTableView.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicTableView.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicTableViewAdapter.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicTableViewAdapter.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicTableViewAdapter.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicTableViewAdapter.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicTableViewDataSource.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicTableViewDataSource.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicView.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicView.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/BasicView.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKBasicView.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/CC.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKColor.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/CC.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKColor.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/CM.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKCoockies.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/CM.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKCoockies.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/IP.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKImage.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/IP.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKImage.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/MT.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKMath.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/MT.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKMath.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/TD.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKDate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SKLibs/Classes/TD.m" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKDate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/CollectionViewSample.m" afterPath="$PROJECT_DIR$/SKLibs/CollectionViewSample.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/Classes/SKLibs.h" afterPath="$PROJECT_DIR$/SKLibs/Classes/SKLibs.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/cvAdapterSample.h" afterPath="$PROJECT_DIR$/SKLibs/cvAdapterSample.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/cvDataSourceSample.h" afterPath="$PROJECT_DIR$/SKLibs/cvDataSourceSample.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/cvDataSourceSample.m" afterPath="$PROJECT_DIR$/SKLibs/cvDataSourceSample.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/SKLibs.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/tableViewSample.m" afterPath="$PROJECT_DIR$/SKLibs/tableViewSample.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/tvAdapterSample.h" afterPath="$PROJECT_DIR$/SKLibs/tvAdapterSample.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/tvDataSourceSample.h" afterPath="$PROJECT_DIR$/SKLibs/tvDataSourceSample.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/tvDataSourceSample.m" afterPath="$PROJECT_DIR$/SKLibs/tvDataSourceSample.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/viewAdapterSample.h" afterPath="$PROJECT_DIR$/SKLibs/viewAdapterSample.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/viewDataSourceSample.h" afterPath="$PROJECT_DIR$/SKLibs/viewDataSourceSample.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/viewDataSourceSample.m" afterPath="$PROJECT_DIR$/SKLibs/viewDataSourceSample.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SKLibs/viewSample.h" afterPath="$PROJECT_DIR$/SKLibs/viewSample.h" />
+    </list>
+    <ignored path="SKLibs.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="SKLibs" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SKDate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKDate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1140">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKCoockies.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKCoockies.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKMath.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKMath.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKMath.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKMath.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKBasicMTContextProcessor.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicMTContextProcessor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKBasicSaver.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicSaver.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKBasicLoadingCell.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingCell.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKBasicSharingManager.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicSharingManager.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKDate.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKDate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SKLibs.h" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKLibs.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.38406828" vertical-offset="0" max-vertical-offset="703">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKCC.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKColor.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKImage.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/DF.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKTime.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/DF.m" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKTime.m" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKCoockies.m" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKBasicMTContextProcessor.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKBasicSaver.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingCell.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKBasicSharingManager.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKDate.h" />
+        <option value="$PROJECT_DIR$/SKLibs/Classes/SKLibs.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="761" />
+    <option name="y" value="267" />
+    <option name="width" value="1762" />
+    <option name="height" value="1159" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilits" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Supporting Files" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SKLibs" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="LayoutCode.rearrangeEntriesC/C++/Objective-C" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.PandraLibs">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="SKLibs" TARGET_NAME="SKLibs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SKLibs" RUN_TARGET_NAME="SKLibs" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="SKLibs" TARGET_NAME="SKLibsTests" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="SKLibs" TARGET_NAME="SKLibs" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PandraLibs" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="SKLibs" TARGET_NAME="SKLibs" CONFIG_NAME="Debug" SCHEME_NAME="PandraLibs" RUN_TARGET_PROJECT_NAME="SKLibs" RUN_TARGET_NAME="SKLibs" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-Bolts" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-Bolts" CONFIG_NAME="Debug" SCHEME_NAME="Pods-Bolts" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-Facebook-iOS-SDK" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-Facebook-iOS-SDK" CONFIG_NAME="Debug" SCHEME_NAME="Pods-Facebook-iOS-SDK" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-Masonry" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-Masonry" CONFIG_NAME="Debug" SCHEME_NAME="Pods-Masonry" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-PKMultipartInputStream" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-PKMultipartInputStream" CONFIG_NAME="Debug" SCHEME_NAME="Pods-PKMultipartInputStream" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-RMMapper" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-RMMapper" CONFIG_NAME="Debug" SCHEME_NAME="Pods-RMMapper" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-SAMTextView" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-SAMTextView" CONFIG_NAME="Debug" SCHEME_NAME="Pods-SAMTextView" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-SDWebImage" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-SDWebImage" CONFIG_NAME="Debug" SCHEME_NAME="Pods-SDWebImage" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-ShareKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-ShareKit" CONFIG_NAME="Debug" SCHEME_NAME="Pods-ShareKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-SSKeychain" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-SSKeychain" CONFIG_NAME="Debug" SCHEME_NAME="Pods-SSKeychain" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-UIActivityIndicator-for-SDWebImage" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-UIActivityIndicator-for-SDWebImage" CONFIG_NAME="Debug" SCHEME_NAME="Pods-UIActivityIndicator-for-SDWebImage" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" SCHEME_NAME="Pods" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="ShareKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="ShareKit" CONFIG_NAME="Debug" SCHEME_NAME="ShareKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Application.PandraLibs" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Pods-Bolts" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Pods-Facebook-iOS-SDK" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Pods-Masonry" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Pods-PKMultipartInputStream" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Pods-RMMapper" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Pods-SAMTextView" />
+      <item index="7" class="java.lang.String" itemvalue="Application.Pods-SDWebImage" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Pods-ShareKit" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Pods-SSKeychain" />
+      <item index="10" class="java.lang.String" itemvalue="Application.Pods-UIActivityIndicator-for-SDWebImage" />
+      <item index="11" class="java.lang.String" itemvalue="Application.Pods" />
+      <item index="12" class="java.lang.String" itemvalue="Application.ShareKit" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5966014-b14e-44d0-bcc1-f7f9200f064c" name="Default" comment="" />
+      <created>1421442160897</created>
+      <option name="number" value="Default" />
+      <updated>1421442160897</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="761" y="267" width="1762" height="1159" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24971624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKColor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="860">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#126#159#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKImage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKCoockies.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKMath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKMath.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicMTContextProcessor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicSaver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicLoadingCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKBasicSharingManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKDate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="1140">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKDate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SKLibs/Classes/SKLibs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38406828" vertical-offset="0" max-vertical-offset="703">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

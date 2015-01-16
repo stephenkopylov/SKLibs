@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Pandra. All rights reserved.
 //
 
-#import "BasicCollectionViewAdapter.h"
+#import "SKBasicCollectionViewAdapter.h"
 
-@interface cvAdapterSample : BasicCollectionViewAdapter
+@interface cvAdapterSample : SKBasicCollectionViewAdapter
 
 @end
