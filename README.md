@@ -7,7 +7,7 @@
 
 ## About
 
-Frequently used utilits and libraries for Pandra's projects
+Frequently used utilits and libraries for my projects
 
 ## Installation
 
