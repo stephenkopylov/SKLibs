@@ -1,0 +1,53 @@
+PODS:
+  - Bolts (1.1.3)
+  - Facebook-iOS-SDK (3.16.2):
+    - Bolts
+  - Masonry (0.5.3)
+  - PKMultipartInputStream (1.1.0)
+  - RMMapper (1.1.5)
+  - SAMTextView (0.2.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - ShareKit/Core (3.0.0):
+    - SAMTextView (~> 0.2.1)
+    - SDWebImage (~> 3.7.1)
+    - ShareKit/NoARC
+    - ShareKit/Reachability
+    - SSKeychain (~> 1.2.2)
+    - UIActivityIndicator-for-SDWebImage (~> 1.2)
+  - ShareKit/Facebook (3.0.0):
+    - Facebook-iOS-SDK (~> 3.16.2)
+    - ShareKit/Core
+  - ShareKit/NoARC (3.0.0):
+    - PKMultipartInputStream
+    - ShareKit/Core
+  - ShareKit/Reachability (3.0.0)
+  - ShareKit/Twitter (3.0.0):
+    - ShareKit/Core
+  - ShareKit/Vkontakte (3.0.0):
+    - ShareKit/Core
+  - SSKeychain (1.2.2)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - Masonry
+  - RMMapper
+  - ShareKit/Facebook
+  - ShareKit/Twitter
+  - ShareKit/Vkontakte
+
+SPEC CHECKSUMS:
+  Bolts: 3db0a875235e0c9042b013af13af0f00f79b102c
+  Facebook-iOS-SDK: 34eef640c2cc4c8618ba0f574ad2b290e07f1b4e
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
+  PKMultipartInputStream: 9e18cd438cbfb8900ccb4d26b3f848768cd92e10
+  RMMapper: a32a1cc09d9652a83965906197097d2256d229f6
+  SAMTextView: 1062a784ba7b2080b0c17748001c416b53010b4b
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  ShareKit: 0d0aed5d8e04d151a79191f4c8572b27569a68b1
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+  UIActivityIndicator-for-SDWebImage: 8bd92c15280fbe54816448c6b14674145eee05c7
+
+COCOAPODS: 0.34.4
