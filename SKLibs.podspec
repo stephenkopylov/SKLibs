@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SKLibs"
-  s.version          = "0.1"
+  s.version          = "0.2"
   s.summary          = "Frequently used utilits and libraries for my projects"
   s.description      = <<-DESC
                         Frequently used utilits and libraries for my projects.
