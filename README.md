@@ -1,4 +1,4 @@
-# PandraLibs
+# SKLibs
 
 [![CI Status](http://img.shields.io/travis/Stephen Kopylov/PandraLibs.svg?style=flat)](https://travis-ci.org/Stephen Kopylov/PandraLibs)
 [![Version](https://img.shields.io/cocoapods/v/PandraLibs.svg?style=flat)](http://cocoadocs.org/docsets/PandraLibs)
